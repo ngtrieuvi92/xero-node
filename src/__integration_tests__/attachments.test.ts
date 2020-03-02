@@ -40,7 +40,7 @@ describe('xeroClient', () => {
                 }
             });
             expect(attachmentsResponse.response.statusCode).toBe(200);
-            
+
             expect(attachmentsResponse.body.attachments).toBeTruthy();
             expect(attachmentsResponse.body.attachments && attachmentsResponse.body.attachments[0].fileName).toBe(filename);
             // TODO: check that attachment looks good in Xero UI

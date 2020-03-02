@@ -1,0 +1,1 @@
+{"version":3,"file":"config.js","sourceRoot":"","sources":["../../src/__integration_tests__/config.ts"],"names":[],"mappings":";;AAEa,QAAA,MAAM,GAAsB;IACrC,QAAQ,EAAE,gBAAgB;IAC1B,YAAY,EAAE,oBAAoB;IAClC,YAAY,EAAE;QACV,gCAAgC;KACnC;IACD,MAAM,EAAE;QACJ,QAAQ;QACR,SAAS;QACT,OAAO;QACP,gBAAgB;QAChB,qBAAqB;QACrB,wBAAwB;KAC3B;CACJ,CAAC"}

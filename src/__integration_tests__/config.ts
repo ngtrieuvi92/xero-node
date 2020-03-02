@@ -1,4 +1,4 @@
-import { IXeroClientConfig } from "../gen/api";
+import { IXeroClientConfig } from "../XeroClient";
 
 export const config: IXeroClientConfig = {
     clientId: 'YOUR_CLIENT_ID',
@@ -7,10 +7,10 @@ export const config: IXeroClientConfig = {
         'http://localhost:5000/callback'
     ],
     scopes: [
-        'openid', 
-        'profile', 
-        'email', 
-        'offline_access', 
+        'openid',
+        'profile',
+        'email',
+        'offline_access',
         'accounting.settings', // accounts
         'accounting.attachments'
     ]
