@@ -22,7 +22,7 @@
         "open": "^6.4.0",
         "prompt": "^1.0.0",
         "ts-jest": "^24.1.0",
-        "typescript": "^3.7.2"
+        "typescript": "^3.5.3"
     },
     "dependencies": {
         "openid-client": "^3.9.2",
