@@ -1330,7 +1330,7 @@ export class AccountingApi {
             uri: localVarPath,
             useQuerystring: this._useQuerystring,
             json: true,
-            body: ObjectSerializer.serialize(contacts, "Contacts")
+            body: contacts,
         };
 
         let authenticationPromise = Promise.resolve();
