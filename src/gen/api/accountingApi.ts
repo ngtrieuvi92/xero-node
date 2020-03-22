@@ -8444,7 +8444,7 @@ export class AccountingApi {
         }
 
         if (invoiceNumbers !== undefined) {
-            localVarQueryParameters['InvoiceNumbers'] = ObjectSerializer.serialize(invoiceNumbers, "Array<string>");
+            localVarQueryParameters['InvoiceNumbers'] = invoiceNumbers;
         }
 
         if (contactIDs !== undefined) {
