@@ -1,3 +1,4 @@
+/// <reference types="node" />
 declare module 'openid-client' {
     /**
      * @see https://github.com/panva/node-openid-client/blob/master/docs/README.md

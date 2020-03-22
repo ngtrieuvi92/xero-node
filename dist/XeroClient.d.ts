@@ -1,6 +1,8 @@
 /// <reference path="untyped.d.ts" />
+/// <reference types="node" />
 import { TokenSet } from 'openid-client';
 import * as xero from './gen/api';
+import http = require('http');
 export interface IXeroClientConfig {
     clientId: string;
     clientSecret: string;
@@ -66,7 +68,7 @@ export declare class XeroClient {
         orgData: any;
     }[]>;
     queryApi(method: any, uri: any): Promise<{
-        response: any;
+        response: http.IncomingMessage;
         body: {
             id: string;
             tenantId: string;
